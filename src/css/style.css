@@ -133,6 +133,31 @@ section.chamada h2{
     font-weight: normal;
 }
 
+.flex-mosaico{
+    display: flex;
+}
+
+.item-1{
+    top: -40px;
+    position: relative;
+    background-position: center;
+    background-size: cover; 
+    /* background-image: url('../images/quarto.jpeg');  */
+    width: 60%;
+    height: 300px; 
+}
+
+.item-2{
+    top: -40px;
+    position: relative;
+    padding: 100px;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    background-color: #fcd8a4;
+}
+
 @media screen and (max-width:960px){
     .bg{
         height: auto;
